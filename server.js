@@ -10,6 +10,11 @@ const PORT = process.env.PORT || 3000;
 // O CORS permite que nosso frontend (que rodará em outra porta durante o dev) acesse essa API.
 app.use(cors());
 
+// Rota de saúde (ping) para usar no UptimeRobot sem gastar limite do GitHub!
+app.get('/ping', (req, res) => {
+    res.scdend('pong');
+});
+
 // Rota principal para fornecer os dados dos projetos para o frontend.
 app.get('/api/projects', async (req, res) => {
     try {
