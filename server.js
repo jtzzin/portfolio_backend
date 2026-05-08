@@ -12,7 +12,7 @@ app.use(cors());
 
 // Rota de saúde (ping) para usar no UptimeRobot sem gastar limite do GitHub!
 app.get('/ping', (req, res) => {
-    res.scdend('pong');
+    res.send('pong');
 });
 
 // Rota principal para fornecer os dados dos projetos para o frontend.
