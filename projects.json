@@ -4,6 +4,6 @@
     "description": "Um projeto para gerenciar seu cultivo de plantas, com lembretes de rega e adubação.",
     "github_url": "https://github.com/jtzzin/plantaE-backend",
     "github_front_url": "https://github.com/jtzzin/plantaE-front",
-    "deploy_url": "planta-e.netlify.app" 
+    "deploy_url": "https://planta-e.netlify.app/login" 
   }
 ]
