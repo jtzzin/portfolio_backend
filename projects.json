@@ -1,7 +1,7 @@
 [
   {
     "name": "PlantaE - Gestão de Plantas",
-    "description": "Um projeto realizado como tcc do curso técnico. Desenvolvido com React e Python.",
+    "description": "Um projeto para gerenciar seu cultivo de plantas, com lembretes de rega e adubação.",
     "github_url": "https://github.com/jtzzin/plantaE-backend",
     "github_front_url": "https://github.com/jtzzin/plantaE-front",
     "deploy_url": "https://steady-youtiao-5f3c5a.netlify.app" 
